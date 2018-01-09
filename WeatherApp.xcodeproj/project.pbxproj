@@ -36,7 +36,7 @@
 		CB109F4D2005618000E4222D /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB109F4C2005618000E4222D /* UserDefault.swift */; };
 		CB109F502005758400E4222D /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB109F4F2005758400E4222D /* WeatherTableViewCell.swift */; };
 		CB109F52200577BE00E4222D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB109F51200577BE00E4222D /* UIImageExtension.swift */; };
-		CB109F5520057D6D00E4222D /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = CB109F5420057D6D00E4222D /* Resources */; };
+		CB109F5520057D6D00E4222D /* MyResources in Resources */ = {isa = PBXBuildFile; fileRef = CB109F5420057D6D00E4222D /* MyResources */; };
 		CB109F5720057E0600E4222D /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB109F5620057E0600E4222D /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -93,7 +93,7 @@
 		CB109F4C2005618000E4222D /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		CB109F4F2005758400E4222D /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
 		CB109F51200577BE00E4222D /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		CB109F5420057D6D00E4222D /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		CB109F5420057D6D00E4222D /* MyResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MyResources; sourceTree = "<group>"; };
 		CB109F5620057E0600E4222D /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +145,7 @@
 		CB109EEA200472B600E4222D /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				CB109F5420057D6D00E4222D /* Resources */,
+				CB109F5420057D6D00E4222D /* MyResources */,
 				CB109F4E2005756900E4222D /* Cells */,
 				CB109F4720055A1800E4222D /* Util */,
 				CB109F42200553EF00E4222D /* BusinessLogic */,
@@ -400,7 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB109F5520057D6D00E4222D /* Resources in Resources */,
+				CB109F5520057D6D00E4222D /* MyResources in Resources */,
 				CB109EF6200472B600E4222D /* LaunchScreen.storyboard in Resources */,
 				CB109EF3200472B600E4222D /* Assets.xcassets in Resources */,
 				CB109EF1200472B600E4222D /* Main.storyboard in Resources */,
